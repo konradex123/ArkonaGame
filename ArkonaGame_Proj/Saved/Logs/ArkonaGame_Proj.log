@@ -1,4 +1,4 @@
-﻿Log file open, 11/25/18 21:04:14
+﻿Log file open, 11/25/18 20:26:06
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,10 +9,10 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ArkonaGame_Proj
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.653711
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.353846
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
-LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin AISupport
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.108s to configure plugins.
+LogStreaming: Display: Took  0.144s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,13 +118,13 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 970
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
 LogInit: Command Line:  
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Base Directory: H:/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -147,468 +147,506 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.25-20.04.15:396][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.25-20.04.15:396][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.25-20.04.15:424][  0]LogHAL: Display: Platform has ~ 32 GB [34022539264 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.25-20.04.15:424][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.25-20.04.15:424][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.25-20.04.15:431][  0]LogInit: Computer: DESKTOP-65K6KOA
-[2018.11.25-20.04.15:431][  0]LogInit: User: Sajgon
-[2018.11.25-20.04.15:431][  0]LogInit: CPU Page size=4096, Cores=8
-[2018.11.25-20.04.15:431][  0]LogInit: High frequency timer resolution =3.515626 MHz
-[2018.11.25-20.04.15:432][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
-[2018.11.25-20.04.15:432][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.25-20.04.15:432][  0]LogMemory: Process Physical Memory: 101.62 MB used, 101.62 MB peak
-[2018.11.25-20.04.15:432][  0]LogMemory: Process Virtual Memory: 91.20 MB used, 91.20 MB peak
-[2018.11.25-20.04.15:432][  0]LogMemory: Physical Memory: 10187.31 MB used,  22259.11 MB free, 32446.42 MB total
-[2018.11.25-20.04.15:432][  0]LogMemory: Virtual Memory: 4673.30 MB used,  22259.11 MB free, 134217728.00 MB total
-[2018.11.25-20.04.15:645][  0]LogInit: Using OS detected language (pl-PL).
-[2018.11.25-20.04.15:646][  0]LogInit: Using OS detected locale (pl-PL).
-[2018.11.25-20.04.15:646][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2018.11.25-20.04.15:666][  0]LogStreaming: Display: Took  0.020s to InitEngineTextLocalization.
-[2018.11.25-20.04.15:666][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.25-20.04.15:751][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.25-20.04.15:751][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.25-20.04.17:896][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.25-20.04.17:896][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.25-20.04.17:962][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.11.25-20.04.17:962][  0]LogD3D11RHI:       4043/0/16223 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.11.25-20.04.17:964][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.25-20.04.17:964][  0]LogD3D11RHI:       0/0/16223 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.25-20.04.17:964][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.25-20.04.17:971][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.25-20.04.17:971][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.25-20.04.17:971][  0]LogWindows: EnumDisplayDevices:
-[2018.11.25-20.04.17:971][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.11.25-20.04.17:971][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2018.11.25-20.04.17:971][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.11.25-20.04.17:972][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.11.25-20.04.17:972][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.11.25-20.04.17:972][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.11.25-20.04.17:972][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
-[2018.11.25-20.04.17:972][  0]LogD3D11RHI:      Driver Date: 10-10-2018
-[2018.11.25-20.04.17:972][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2018.11.25-20.04.18:005][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.25-20.04.18:035][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.11.25-20.04.18:084][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (F:/ArkonaGame/ArkonaGame/ArkonaGame_Proj/Intermediate/Shaders/WorkingDirectory/9392/).
-[2018.11.25-20.04.18:085][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sajgon/AppData/Local/Temp/UnrealShaderWorkingDir/859CB4D04FF78917CDBF9E823AAE3A23/'.
-[2018.11.25-20.04.18:976][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.25-20.04.19:018][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.25-20.04.19:052][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.25-20.04.19:080][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.25-20.04.19:113][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.25-20.04.19:139][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.25-20.04.19:200][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.25-20.04.19:230][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.25-20.04.19:258][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-20.04.19:380][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.11.25-20.04.19:491][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.25-20.04.19:491][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.25-20.04.19:548][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.25-20.04.19:548][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.25-20.04.19:595][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.11.25-20.04.19:643][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.11.25-20.04.19:673][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.11.25-20.04.19:729][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.11.25-20.04.19:757][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.11.25-20.04.19:757][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.25-20.04.20:327][  0]LogXGEController: Cleaning working directory: C:/Users/Sajgon/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.11.25-20.04.20:327][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.25-20.04.20:327][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.25-20.04.20:327][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.25-20.04.22:214][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.25-20.04.22:214][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
-[2018.11.25-20.04.22:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/ArkonaGame/ArkonaGame/ArkonaGame_Proj/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.25-20.04.22:214][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.25-20.04.22:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/ArkonaGame/ArkonaGame/ArkonaGame_Proj/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.25-20.04.22:214][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.25-20.04.22:257][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.11.25-20.04.22:270][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sajgon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.25-20.04.22:270][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.25-20.04.22:270][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.25-20.04.22:315][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.25-20.04.22:318][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.25-20.04.22:337][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.25-20.04.22:611][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
-[2018.11.25-20.04.22:885][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.25-20.04.23:197][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.11.25-20.04.23:304][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.11.25-20.04.23:304][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.25-20.04.23:304][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.25-20.04.23:304][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.25-20.04.23:433][  0]LogNetVersion: ArkonaGame_Proj 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2592284666)
-[2018.11.25-20.04.24:553][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.123647 seconds
-[2018.11.25-20.04.24:560][  0]LogUObjectArray: 38447 objects as part of root set at end of initial load.
-[2018.11.25-20.04.24:560][  0]LogUObjectAllocator: 6692632 out of 0 bytes used by permanent object pool.
-[2018.11.25-20.04.24:560][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.25-20.04.27:900][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.25-20.04.27:945][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.25-20.04.28:628][  0]SourceControl: Source control is disabled
-[2018.11.25-20.04.28:628][  0]SourceControl: Source control is disabled
-[2018.11.25-20.04.28:687][  0]SourceControl: Source control is disabled
-[2018.11.25-20.04.28:705][  0]SourceControl: Source control is disabled
-[2018.11.25-20.04.29:624][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.25-20.04.29:803][  0]LogOcInput: OculusInput pre-init called
-[2018.11.25-20.04.29:970][  0]LogEngine: Initializing Engine...
-[2018.11.25-20.04.29:971][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.25-20.04.29:973][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.25-20.04.29:973][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.25-20.04.29:973][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.25-20.04.29:973][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.25-20.04.30:295][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.25-20.04.30:328][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.25-20.04.30:347][  0]LogInit: XAudio2 using 'Zestaw słuchawkowy (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.25-20.04.30:359][  0]LogInit: FAudioDevice initialized.
-[2018.11.25-20.04.30:359][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.25-20.04.30:395][  0]LogDerivedDataCache: Saved boot cache 0.04s 87MB C:/Users/Sajgon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.25-20.04.30:410][  0]LogInit: Texture streaming: Enabled
-[2018.11.25-20.04.30:490][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.25-20.04.30:519][  0]LogInit: Transaction tracking system initialized
-[2018.11.25-20.04.30:628][  0]BlueprintLog: New page: Editor Load
-[2018.11.25-20.04.31:252][  0]LocalizationService: Localization service is disabled
-[2018.11.25-20.04.31:890][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.25-20.04.31:890][  0]LogCook: Display: Mobile HDR setting 1
-[2018.11.25-20.04.31:890][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.25-20.04.31:890][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.25-20.04.31:890][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.25-20.04.31:890][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.25-20.04.31:890][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.25-20.04.32:618][  0]LogFileCache: Scanning file cache for directory 'F:/ArkonaGame/ArkonaGame/ArkonaGame_Proj/Content/' took 0.01s
-[2018.11.25-20.04.32:618][  0]SourceControl: Source control is disabled
-[2018.11.25-20.04.32:619][  0]Cmd: MAP LOAD FILE="F:/ArkonaGame/ArkonaGame/ArkonaGame_Proj/Content/StoryAdvTemplate/Maps/DemoLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.25-20.04.32:619][  0]LightingResults: New page: Lighting Build
-[2018.11.25-20.04.32:625][  0]MapCheck: New page: Map Check
-[2018.11.25-20.04.32:625][  0]LightingResults: New page: Lighting Build
-[2018.11.25-20.04.34:171][  0]LogLinker: Warning: Can't find file '/Game/StoryAdvTemplate/Maps/DemoLevel_BuiltData'
-[2018.11.25-20.04.34:171][  0]LogLinker: Warning: Can't find file for asset '/Game/StoryAdvTemplate/Maps/DemoLevel_BuiltData' while loading F:/ArkonaGame/ArkonaGame/ArkonaGame_Proj/Content/StoryAdvTemplate/Maps/DemoLevel.umap.
-[2018.11.25-20.04.34:171][  0]LoadErrors: Error: /Game/StoryAdvTemplate/Maps/DemoLevel : Can't find file for asset. /Game/StoryAdvTemplate/Maps/DemoLevel_BuiltData
-[2018.11.25-20.04.34:182][  0]LogLinker: Warning: Can't find file '/Game/StoryAdvTemplate/Maps/DemoLevel_BuiltData'
-[2018.11.25-20.04.34:182][  0]LogLinker: Warning: Can't find file for asset '/Game/StoryAdvTemplate/Maps/DemoLevel_BuiltData' while loading F:/ArkonaGame/ArkonaGame/ArkonaGame_Proj/Content/StoryAdvTemplate/Maps/DemoLevel.umap.
-[2018.11.25-20.04.34:182][  0]LoadErrors: Error: /Game/StoryAdvTemplate/Maps/DemoLevel : Can't find file for asset. /Game/StoryAdvTemplate/Maps/DemoLevel_BuiltData
-[2018.11.25-20.04.34:195][  0]LogLinker: Warning: Can't find file '/Game/StoryAdvTemplate/Maps/DemoLevel_BuiltData'
-[2018.11.25-20.04.34:195][  0]LogLinker: Warning: Can't find file for asset '/Game/StoryAdvTemplate/Maps/DemoLevel_BuiltData' while loading NULL.
-[2018.11.25-20.04.34:195][  0]LogLinker: Warning: Can't find file '/Game/StoryAdvTemplate/Maps/DemoLevel_BuiltData'
-[2018.11.25-20.04.34:195][  0]LogLinker: Warning: Can't find file for asset '/Game/StoryAdvTemplate/Maps/DemoLevel_BuiltData' while loading NULL.
-[2018.11.25-20.04.34:284][  0]LogTexture: Display: Building textures: T_Close (BGRA8, 64X64)
-[2018.11.25-20.04.34:284][  0]LogTexture: Display: Building textures: T_InventoryItemEmpty (AutoDXT, 256X256)
-[2018.11.25-20.04.34:284][  0]LogTexture: Display: Building textures: IES_Flashlight (RGBA16F, 256X256)
-[2018.11.25-20.04.34:285][  0]LogTexture: Display: Building textures: T_Flashlight_BC (AutoDXT, 512X512)
-[2018.11.25-20.04.34:285][  0]LogLinker: Warning: Can't find file '/Game/StoryAdvTemplate/Maps/DemoLevel_BuiltData'
-[2018.11.25-20.04.34:285][  0]LoadErrors: Failed to load /Game/StoryAdvTemplate/Maps/DemoLevel_BuiltData.DemoLevel_BuiltData Referenced by PersistentLevel
-[2018.11.25-20.04.34:285][  0]LogLinker: Warning: Can't find file for asset '/Game/StoryAdvTemplate/Maps/DemoLevel_BuiltData' while loading NULL.
-[2018.11.25-20.04.34:285][  0]LoadErrors: Failed to load /Game/StoryAdvTemplate/Maps/DemoLevel_BuiltData.DemoLevel_BuiltData Referenced by PersistentLevel
-[2018.11.25-20.04.34:396][  0]LogTexture: Display: Building textures: T_Circle (BGRA8, 128X128)
-[2018.11.25-20.04.34:396][  0]LogTexture: Display: Building textures: T_Dot (BGRA8, 128X128)
-[2018.11.25-20.04.34:396][  0]LogTexture: Display: Building textures: T_FloorLamp_M (DXT1, 2048X2048)
-[2018.11.25-20.04.34:396][  0]LogTexture: Display: Building textures: T_FloorLamp_N (BC5, 2048X2048)
-[2018.11.25-20.04.34:396][  0]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
-[2018.11.25-20.04.34:502][  0]LogTexture: Display: Building textures: T_Mug_M (AutoDXT, 2048X2048)
-[2018.11.25-20.04.34:502][  0]LogTexture: Display: Building textures: T_LetterBlank_BC (AutoDXT, 1024X1024)
-[2018.11.25-20.04.34:503][  0]LogTexture: Display: Building textures: T_InvIcon_key (AutoDXT, 256X256)
-[2018.11.25-20.04.34:503][  0]LogTexture: Display: Building textures: T_DeskLamp_N (BC5, 1024X1024)
-[2018.11.25-20.04.34:503][  0]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/StoryAdvTemplate/Mesh/Mannequin/SK_Mannequin.SK_Mannequin
-[2018.11.25-20.04.34:507][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2018.11.25-20.04.34:662][  0]LogTexture: Display: Building textures: T_Letter_BC (AutoDXT, 2048X2048)
-[2018.11.25-20.04.34:662][  0]LogTexture: Display: Building textures: T_Anisotrophic_M (DXT1, 1024X1024)
-[2018.11.25-20.04.34:662][  0]LogShaderCompilers: Display: Shaders left to compile 128
-[2018.11.25-20.04.34:662][  0]LogShaderCompilers: Display: Shaders left to compile 118
-[2018.11.25-20.04.34:662][  0]LogShaderCompilers: Display: Shaders left to compile 108
-[2018.11.25-20.04.34:662][  0]LogShaderCompilers: Display: Shaders left to compile 98
-[2018.11.25-20.04.34:662][  0]LogShaderCompilers: Display: Shaders left to compile 88
-[2018.11.25-20.04.34:662][  0]LogShaderCompilers: Display: Shaders left to compile 78
-[2018.11.25-20.04.34:662][  0]LogShaderCompilers: Display: Shaders left to compile 68
-[2018.11.25-20.04.34:662][  0]LogShaderCompilers: Display: Shaders left to compile 58
-[2018.11.25-20.04.34:662][  0]LogShaderCompilers: Display: Shaders left to compile 48
-[2018.11.25-20.04.34:662][  0]LogShaderCompilers: Display: Shaders left to compile 38
-[2018.11.25-20.04.34:662][  0]LogShaderCompilers: Display: Shaders left to compile 28
-[2018.11.25-20.04.34:662][  0]LogShaderCompilers: Display: Shaders left to compile 18
-[2018.11.25-20.04.34:662][  0]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.11.25-20.04.34:662][  0]LogStaticMesh: Building static mesh SM_Flashlight...
-[2018.11.25-20.04.34:678][  0]LogTexture: Display: Building textures: T_InvIcon_Lamp (AutoDXT, 256X256)
-[2018.11.25-20.04.34:678][  0]LogTexture: Display: Building textures: T_Mug_N (BC5, 2048X2048)
-[2018.11.25-20.04.34:678][  0]LogStaticMesh: Built static mesh [0.02s] /Game/StoryAdvTemplate/Mesh/SM_Flashlight.SM_Flashlight
-[2018.11.25-20.04.34:681][  0]LogMaterial: Display: Missing cached shader map for material M_Flashlight, compiling. 
-[2018.11.25-20.04.34:720][  0]LogTexture: Display: Building textures: T_Anisotrophic_N (BC5, 1024X1024)
-[2018.11.25-20.04.34:720][  0]LogTexture: Display: Building textures: T_InvIcon_Mug (AutoDXT, 256X256)
-[2018.11.25-20.04.34:720][  0]LogTexture: Display: Building textures: T_InvIcon_Letter (AutoDXT, 256X256)
-[2018.11.25-20.04.34:720][  0]LogStaticMesh: Building static mesh SM_Key...
-[2018.11.25-20.04.34:755][  0]LogStaticMesh: Built static mesh [0.04s] /Game/StoryAdvTemplate/Mesh/SM_Key.SM_Key
-[2018.11.25-20.04.34:761][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/StoryAdvTemplate/Animations/ThirdPerson_HoldFlashlight.ThirdPerson_HoldFlashlight
-[2018.11.25-20.04.34:761][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/StoryAdvTemplate/Animations/ThirdPerson_HoldFlashlight.ThirdPerson_HoldFlashlight) using current/default (AnimCompress_RemoveLinearKeys_18) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.11.25-20.04.34:881][  0]LogTexture: Display: Building textures: T_InvIcon_Cube (AutoDXT, 256X256)
-[2018.11.25-20.04.34:881][  0]LogTexture: Display: Building textures: T_FloorLamp_AO (DXT1, 2048X2048)
-[2018.11.25-20.04.34:884][  0]LogStaticMesh: Building static mesh SM_Letter...
-[2018.11.25-20.04.34:885][  0]LogStaticMesh: Built static mesh [0.00s] /Game/StoryAdvTemplate/Mesh/SM_Letter.SM_Letter
-[2018.11.25-20.04.35:188][  0]LogStaticMesh: Building static mesh SM_Mug...
-[2018.11.25-20.04.35:210][  0]LogStaticMesh: Built static mesh [0.02s] /Game/StoryAdvTemplate/Mesh/SM_Mug.SM_Mug
-[2018.11.25-20.04.35:233][  0]LogStaticMesh: Building static mesh SM_DeskLamp...
-[2018.11.25-20.04.35:257][  0]LogStaticMesh: Built static mesh [0.02s] /Game/StoryAdvTemplate/Mesh/SM_DeskLamp.SM_DeskLamp
-[2018.11.25-20.04.35:265][  0]LogStaticMesh: Building static mesh SM_Cube...
-[2018.11.25-20.04.35:279][  0]LogStaticMesh: Built static mesh [0.02s] /Game/StoryAdvTemplate/Mesh/SM_Cube.SM_Cube
-[2018.11.25-20.04.35:281][  0]LogStaticMesh: Building static mesh SM_CupboardDoor...
-[2018.11.25-20.04.35:282][  0]LogStaticMesh: Built static mesh [0.00s] /Game/StoryAdvTemplate/Mesh/SM_CupboardDoor.SM_CupboardDoor
-[2018.11.25-20.04.35:284][  0]LogStaticMesh: Building static mesh SM_Cupboard...
-[2018.11.25-20.04.35:321][  0]LogStaticMesh: Built static mesh [0.04s] /Game/StoryAdvTemplate/Mesh/SM_Cupboard.SM_Cupboard
-[2018.11.25-20.04.35:325][  0]LogStaticMesh: Building static mesh SM_DresserDrawer...
-[2018.11.25-20.04.35:335][  0]LogStaticMesh: Built static mesh [0.01s] /Game/StoryAdvTemplate/Mesh/SM_DresserDrawer.SM_DresserDrawer
-[2018.11.25-20.04.35:341][  0]LogStaticMesh: Building static mesh SM_Dresser...
-[2018.11.25-20.04.35:363][  0]LogStaticMesh: Built static mesh [0.02s] /Game/StoryAdvTemplate/Mesh/SM_Dresser.SM_Dresser
-[2018.11.25-20.04.35:366][  0]LogStaticMesh: Building static mesh SM_DoorFrame...
-[2018.11.25-20.04.35:372][  0]LogStaticMesh: Built static mesh [0.01s] /Game/StoryAdvTemplate/Mesh/SM_DoorFrame.SM_DoorFrame
-[2018.11.25-20.04.35:385][  0]LogStaticMesh: Building static mesh SM_Door...
-[2018.11.25-20.04.35:424][  0]LogStaticMesh: Built static mesh [0.04s] /Game/StoryAdvTemplate/Mesh/SM_Door.SM_Door
-[2018.11.25-20.04.35:532][  0]LogMaterial: Display: Missing cached shader map for material M_DeskLamp, compiling. 
-[2018.11.25-20.04.35:886][  0]LogMaterial: Display: Missing cached shader map for material M_Letter, compiling. 
-[2018.11.25-20.04.35:897][  0]LogMaterial: Display: Missing cached shader map for material M_FloorLamp, compiling. 
-[2018.11.25-20.04.35:963][  0]LogMaterial: Display: Missing cached shader map for material M_Key, compiling. 
-[2018.11.25-20.04.35:989][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave S_Creaking_Door_01...
-[2018.11.25-20.04.35:989][  0]LogTemp: Couldn't find amount to resample to.
-[2018.11.25-20.04.36:006][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave S_Unlock_Door_01...
-[2018.11.25-20.04.36:006][  0]LogTemp: Couldn't find amount to resample to.
-[2018.11.25-20.04.36:043][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave S_Open_Door_01...
-[2018.11.25-20.04.36:044][  0]LogTemp: Couldn't find amount to resample to.
-[2018.11.25-20.04.36:061][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave S_LockedDoor_01...
-[2018.11.25-20.04.36:062][  0]LogTemp: Couldn't find amount to resample to.
-[2018.11.25-20.04.36:092][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave S_Close_Door_01...
-[2018.11.25-20.04.36:092][  0]LogTemp: Couldn't find amount to resample to.
-[2018.11.25-20.04.36:113][  0]LogMaterial: Display: Missing cached shader map for material M_Mug, compiling. 
-[2018.11.25-20.04.36:139][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave S_Open_Cupboard_01...
-[2018.11.25-20.04.36:139][  0]LogTemp: Couldn't find amount to resample to.
-[2018.11.25-20.04.36:178][  0]LogMaterial: Display: Missing cached shader map for material M_WhiteBox, compiling. 
-[2018.11.25-20.04.36:208][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave S_CupboardDoor_01...
-[2018.11.25-20.04.36:209][  0]LogTemp: Couldn't find amount to resample to.
-[2018.11.25-20.04.36:235][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 64876 while cooking SoundWave /Game/StoryAdvTemplate/Sound/Waves/S_CupboardDoor_01.S_CupboardDoor_01.
-[2018.11.25-20.04.36:236][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave S_Close_Cupboard_01...
-[2018.11.25-20.04.36:236][  0]LogTemp: Couldn't find amount to resample to.
-[2018.11.25-20.04.36:269][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave S_CupboardDoorHit_01...
-[2018.11.25-20.04.36:269][  0]LogTemp: Couldn't find amount to resample to.
-[2018.11.25-20.04.36:294][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave S_Open_Drawer_01...
-[2018.11.25-20.04.36:294][  0]LogTemp: Couldn't find amount to resample to.
-[2018.11.25-20.04.36:327][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave S_Close_Drawer_01...
-[2018.11.25-20.04.36:327][  0]LogTemp: Couldn't find amount to resample to.
-[2018.11.25-20.04.36:587][  0]LogMaterial: Display: Missing cached shader map for material M_LetterBlank, compiling. 
-[2018.11.25-20.04.36:774][  0]LogMaterial: Display: Missing cached shader map for material M_Letter_Unlit, compiling. 
-[2018.11.25-20.04.36:824][  0]LogAIModule: Creating AISystem for world DemoLevel
-[2018.11.25-20.04.36:894][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.25-20.04.37:107][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.25-20.04.37:243][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 136,439ms to complete.
-[2018.11.25-20.04.37:243][  0]LogFileHelpers: Loading map 'DemoLevel' took 4.625
-[2018.11.25-20.04.37:415][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.25-20.04.37:425][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.25-20.04.37:433][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.25-20.04.37:444][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.25-20.04.37:489][  0]LogCollectionManager: Loaded 0 collections in 0.002961 seconds
-[2018.11.25-20.04.37:542][  0]LogFileCache: Scanning file cache for directory 'F:/ArkonaGame/ArkonaGame/ArkonaGame_Proj/Saved/Collections/' took 0.01s
-[2018.11.25-20.04.37:542][  0]LogFileCache: Scanning file cache for directory 'F:/ArkonaGame/ArkonaGame/ArkonaGame_Proj/Content/Developers/Sajgon/Collections/' took 0.01s
-[2018.11.25-20.04.37:542][  0]LogFileCache: Scanning file cache for directory 'F:/ArkonaGame/ArkonaGame/ArkonaGame_Proj/Content/Collections/' took 0.01s
-[2018.11.25-20.04.37:542][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.11.25-20.04.37:556][  0]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2572 classes and 603 folders.
-[2018.11.25-20.04.37:566][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.11.25-20.04.38:110][  0]LogShaderCompilers: Display: Shaders left to compile 226
-[2018.11.25-20.04.38:110][  0]LogShaderCompilers: Display: Shaders left to compile 216
-[2018.11.25-20.04.38:110][  0]LogShaderCompilers: Display: Shaders left to compile 206
-[2018.11.25-20.04.38:110][  0]LogShaderCompilers: Display: Shaders left to compile 196
-[2018.11.25-20.04.38:110][  0]LogShaderCompilers: Display: Shaders left to compile 186
-[2018.11.25-20.04.38:110][  0]LogShaderCompilers: Display: Shaders left to compile 176
-[2018.11.25-20.04.38:110][  0]LogShaderCompilers: Display: Shaders left to compile 166
-[2018.11.25-20.04.38:110][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.11.25-20.04.38:164][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.11.25-20.04.38:195][  0]LogSlate: Took 0.007683 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.25-20.04.38:205][  0]LogSlate: Took 0.007370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.25-20.04.38:220][  0]LogSlate: Took 0.008936 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.25-20.04.38:404][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.11.25-20.04.38:789][  0]LogShaderCompilers: Display: Shaders left to compile 156
-[2018.11.25-20.04.38:789][  0]LogShaderCompilers: Display: Shaders left to compile 146
-[2018.11.25-20.04.38:789][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.25-20.04.38:834][  0]LogSlate: Window 'Tutorials' being destroyed
-[2018.11.25-20.04.38:918][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.11.25-20.04.38:918][  0]LogLoad: (Engine Initialization) Total time: 27.79 seconds
-[2018.11.25-20.04.38:918][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.25-20.04.38:937][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.25-20.04.38:967][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.11.25-20.04.38:975][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.25-20.04.39:021][  0]LogSlate: Took 0.008313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.25-20.04.39:057][  1]LogAssetRegistry: Asset discovery search completed in 16.4689 seconds
-[2018.11.25-20.04.39:059][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.11.25-20.04.39:059][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000111 seconds (updated 0 objects)
-[2018.11.25-20.04.39:146][  2]LogShaderCompilers: Display: Shaders left to compile 136
-[2018.11.25-20.04.39:442][ 14]LogShaderCompilers: Display: Shaders left to compile 126
-[2018.11.25-20.04.39:626][ 25]LogShaderCompilers: Display: Shaders left to compile 116
-[2018.11.25-20.04.39:769][ 33]LogShaderCompilers: Display: Shaders left to compile 106
-[2018.11.25-20.04.39:954][ 43]LogShaderCompilers: Display: Shaders left to compile 96
-[2018.11.25-20.04.40:094][ 51]LogShaderCompilers: Display: Shaders left to compile 86
-[2018.11.25-20.04.40:305][ 61]LogShaderCompilers: Display: Shaders left to compile 76
-[2018.11.25-20.04.41:346][124]LogShaderCompilers: Display: Shaders left to compile 66
-[2018.11.25-20.04.41:427][129]LogShaderCompilers: Display: Shaders left to compile 56
-[2018.11.25-20.04.41:460][130]LogShaderCompilers: Display: Shaders left to compile 46
-[2018.11.25-20.04.41:538][135]LogShaderCompilers: Display: Shaders left to compile 36
-[2018.11.25-20.04.42:022][164]LogShaderCompilers: Display: Shaders left to compile 26
-[2018.11.25-20.04.42:239][177]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.11.25-20.04.42:379][185]LogShaderCompilers: Display: Shaders left to compile 6
-[2018.11.25-20.04.53:514][849]LogSlate: Window 'Message Log' being destroyed
-[2018.11.25-20.04.53:517][849]LogSlate: Window 'Message Log' being destroyed
-[2018.11.25-20.04.55:682][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.25-20.04.55:765][984]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.25-20.04.55:771][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
-[2018.11.25-20.04.55:771][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.25-20.04.55:784][984]PIE: New page: PIE session: DemoLevel (25 lis 2018, 22:04:55)
-[2018.11.25-20.04.55:785][984]LogPlayLevel: Creating play world package: /Game/StoryAdvTemplate/Maps/UEDPIE_0_DemoLevel
-[2018.11.25-20.04.55:803][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018343s)
-[2018.11.25-20.04.55:803][984]LogAIModule: Creating AISystem for world DemoLevel
-[2018.11.25-20.04.55:804][984]LogPlayLevel: PIE: World Init took: (0.000622s)
-[2018.11.25-20.04.55:804][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel to /Game/StoryAdvTemplate/Maps/UEDPIE_0_DemoLevel.DemoLevel (0.019134s)
-[2018.11.25-20.04.55:851][984]LogInit: XAudio2 using 'Zestaw słuchawkowy (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.25-20.04.55:860][984]LogInit: FAudioDevice initialized.
-[2018.11.25-20.04.55:906][984]LogLoad: Game class is 'BP_StoryAdventureGameMode_C'
-[2018.11.25-20.04.55:921][984]LogWorld: Bringing World /Game/StoryAdvTemplate/Maps/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 60) at 2018.11.25-21.04.55
-[2018.11.25-20.04.55:923][984]LogWorld: Bringing up level for play took: 0.013943
-[2018.11.25-20.04.55:940][984]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
-[2018.11.25-20.04.55:945][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:945][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:945][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:945][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:945][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:945][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:946][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:946][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:946][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:946][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:946][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:946][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:946][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:946][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:946][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:946][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.04.55:946][984]PIE: Play in editor start time for /Game/StoryAdvTemplate/Maps/UEDPIE_0_DemoLevel -0,345
-[2018.11.25-20.04.55:946][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
-[2018.11.25-20.05.44:162][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.25-20.05.48:747][125]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
-[2018.11.25-20.05.48:748][125]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.25-20.05.48:786][125]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.25-20.05.48:786][125]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
-[2018.11.25-20.05.48:825][125]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.25-20.05.48:857][127]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2018.11.25-20.05.49:674][176]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2018.11.25-20.05.49:775][176]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.25-20.05.49:782][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.11.25-20.05.50:498][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.11.25-20.05.51:410][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.25-20.05.51:493][275]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.25-20.05.51:503][275]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
-[2018.11.25-20.05.51:504][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.25-20.05.51:504][275]PIE: New page: PIE session: DemoLevel (25 lis 2018, 22:05:51)
-[2018.11.25-20.05.51:504][275]LogPlayLevel: Creating play world package: /Game/StoryAdvTemplate/Maps/UEDPIE_0_DemoLevel
-[2018.11.25-20.05.51:521][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017105s)
-[2018.11.25-20.05.51:522][275]LogAIModule: Creating AISystem for world DemoLevel
-[2018.11.25-20.05.51:522][275]LogPlayLevel: PIE: World Init took: (0.000607s)
-[2018.11.25-20.05.51:522][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel to /Game/StoryAdvTemplate/Maps/UEDPIE_0_DemoLevel.DemoLevel (0.017845s)
-[2018.11.25-20.05.51:564][275]LogInit: XAudio2 using 'Zestaw słuchawkowy (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.25-20.05.51:572][275]LogInit: FAudioDevice initialized.
-[2018.11.25-20.05.51:606][275]LogLoad: Game class is 'BP_StoryAdventureGameMode_C'
-[2018.11.25-20.05.51:619][275]LogWorld: Bringing World /Game/StoryAdvTemplate/Maps/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 60) at 2018.11.25-21.05.51
-[2018.11.25-20.05.51:619][275]LogWorld: Bringing up level for play took: 0.011999
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:634][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:635][275]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/StoryAdvTemplate/Blueprints/MasterBlueprints/BP_Master_CollectableJournalEntry.BP_Master_CollectableJournalEntry_C:ExecuteUbergraph_BP_Master_CollectableJournalEntry'!
-[2018.11.25-20.05.51:635][275]PIE: Play in editor start time for /Game/StoryAdvTemplate/Maps/UEDPIE_0_DemoLevel -0,657
-[2018.11.25-20.05.51:635][275]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
-[2018.11.25-20.06.24:535][246]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.25-20.06.31:941][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.25-20.06.48:477][683]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:477][683]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:477][683]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:478][683]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:478][683]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:478][683]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:478][683]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:478][683]LogScript: Warning: Script Msg: Attempted to access index 8 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:479][683]LogScript: Warning: Script Msg: Attempted to access index 9 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:479][683]LogScript: Warning: Script Msg: Attempted to access index 10 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:479][683]LogScript: Warning: Script Msg: Attempted to access index 11 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:479][683]LogScript: Warning: Script Msg: Attempted to access index 12 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:480][683]LogScript: Warning: Script Msg: Attempted to access index 13 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:480][683]LogScript: Warning: Script Msg: Attempted to access index 14 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:480][683]LogScript: Warning: Script Msg: Attempted to access index 15 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:480][683]LogScript: Warning: Script Msg: Attempted to access index 16 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:480][683]LogScript: Warning: Script Msg: Attempted to access index 17 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:481][683]LogScript: Warning: Script Msg: Attempted to access index 18 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:481][683]LogScript: Warning: Script Msg: Attempted to access index 19 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:481][683]LogScript: Warning: Script Msg: Attempted to access index 20 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:481][683]LogScript: Warning: Script Msg: Attempted to access index 21 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:481][683]LogScript: Warning: Script Msg: Attempted to access index 22 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.48:482][683]LogScript: Warning: Script Msg: Attempted to access index 23 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.51:991][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.25-20.06.52:945][951]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:946][951]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:947][951]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:947][951]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:948][951]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:948][951]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:949][951]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:949][951]LogScript: Warning: Script Msg: Attempted to access index 8 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:950][951]LogScript: Warning: Script Msg: Attempted to access index 9 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:950][951]LogScript: Warning: Script Msg: Attempted to access index 10 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:951][951]LogScript: Warning: Script Msg: Attempted to access index 11 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:951][951]LogScript: Warning: Script Msg: Attempted to access index 12 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:952][951]LogScript: Warning: Script Msg: Attempted to access index 13 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:952][951]LogScript: Warning: Script Msg: Attempted to access index 14 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:953][951]LogScript: Warning: Script Msg: Attempted to access index 15 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:953][951]LogScript: Warning: Script Msg: Attempted to access index 16 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:954][951]LogScript: Warning: Script Msg: Attempted to access index 17 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:954][951]LogScript: Warning: Script Msg: Attempted to access index 18 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:955][951]LogScript: Warning: Script Msg: Attempted to access index 19 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:955][951]LogScript: Warning: Script Msg: Attempted to access index 20 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:956][951]LogScript: Warning: Script Msg: Attempted to access index 21 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:957][951]LogScript: Warning: Script Msg: Attempted to access index 22 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.52:957][951]LogScript: Warning: Script Msg: Attempted to access index 23 from array 'Inventory' of length 1 in '/Game/StoryAdvTemplate/Blueprints/BP_GameController.BP_GameController_C'!
-[2018.11.25-20.06.54:947][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.25-20.08.16:350][952]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
-[2018.11.25-20.08.16:351][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.25-20.08.16:390][952]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.25-20.08.16:390][952]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/StoryAdvTemplate/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
-[2018.11.25-20.08.16:428][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.25-20.08.16:451][953]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2018.11.25-20.08.24:122][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.25-20.08.29:282][721]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/StoryAdvTemplate/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP'!
-[2018.11.25-20.08.29:282][721]LogScript: Warning: Accessed None trying to read property GameControllerInstance
-	ThirdPerson_AnimBP_C /Engine/Transient.World_3:PersistentLevel.BP_FirstPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
-	Function /Game/StoryAdvTemplate/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:02D4
-[2018.11.25-20.08.48:390][867]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.25-20.09.27:347][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.25-20.14.01:662][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.25-20.14.01:670][236]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.25-20.14.02:112][236]LogSavePackage: Moving 'F:/ArkonaGame/ArkonaGame/ArkonaGame_Proj/Saved/DemoLevelB1690DCE413719563D5D749B2EEF30DE.tmp' to 'F:/ArkonaGame/ArkonaGame/ArkonaGame_Proj/Content/StoryAdvTemplate/Maps/DemoLevel.umap'
+[2018.11.25-20.26.06:996][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.25-20.26.06:996][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.25-20.26.07:005][  0]LogHAL: Display: Platform has ~ 16 GB [17125994496 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.25-20.26.07:006][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.25-20.26.07:006][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.25-20.26.07:006][  0]LogInit: Computer: DESKTOP-DI42RBU
+[2018.11.25-20.26.07:007][  0]LogInit: User: Konrad
+[2018.11.25-20.26.07:007][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.25-20.26.07:007][  0]LogInit: High frequency timer resolution =3.906249 MHz
+[2018.11.25-20.26.07:007][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.25-20.26.07:007][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.25-20.26.07:007][  0]LogMemory: Process Physical Memory: 99.44 MB used, 99.44 MB peak
+[2018.11.25-20.26.07:007][  0]LogMemory: Process Virtual Memory: 90.98 MB used, 90.98 MB peak
+[2018.11.25-20.26.07:007][  0]LogMemory: Physical Memory: 6081.78 MB used,  10250.84 MB free, 16332.62 MB total
+[2018.11.25-20.26.07:007][  0]LogMemory: Virtual Memory: 4631.07 MB used,  10250.84 MB free, 134217728.00 MB total
+[2018.11.25-20.26.07:059][  0]LogInit: Using OS detected language (en-US).
+[2018.11.25-20.26.07:059][  0]LogInit: Using OS detected locale (en-GB).
+[2018.11.25-20.26.07:061][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.25-20.26.07:517][  0]LogStreaming: Display: Took  0.457s to InitEngineTextLocalization.
+[2018.11.25-20.26.07:517][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.25-20.26.07:567][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.25-20.26.07:567][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.25-20.26.07:843][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.25-20.26.07:843][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.25-20.26.07:934][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.11.25-20.26.07:934][  0]LogD3D11RHI:       4043/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.11.25-20.26.07:939][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.25-20.26.07:939][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.25-20.26.07:939][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.25-20.26.07:951][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.25-20.26.07:951][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.25-20.26.07:951][  0]LogWindows: EnumDisplayDevices:
+[2018.11.25-20.26.07:951][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.11.25-20.26.07:951][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.11.25-20.26.07:952][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.11.25-20.26.07:952][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.11.25-20.26.07:953][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.25-20.26.07:953][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.11.25-20.26.07:953][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2018.11.25-20.26.07:953][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2018.11.25-20.26.07:953][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.11.25-20.26.08:017][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.25-20.26.08:045][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.25-20.26.08:141][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../Arkoan/ArkonaGame/ArkonaGame_Proj/Intermediate/Shaders/WorkingDirectory/5232/).
+[2018.11.25-20.26.08:141][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Konrad/AppData/Local/Temp/UnrealShaderWorkingDir/F522D3FB469E83EBE20FE18B92E49DF6/'.
+[2018.11.25-20.26.08:639][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.25-20.26.08:655][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.25-20.26.08:673][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.25-20.26.08:688][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.25-20.26.08:712][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.25-20.26.08:737][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.25-20.26.08:753][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.25-20.26.08:771][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.25-20.26.08:781][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.25-20.26.08:876][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.25-20.26.08:949][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.25-20.26.08:949][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.25-20.26.08:974][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.25-20.26.08:974][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.25-20.26.08:995][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.25-20.26.09:012][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.25-20.26.09:029][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.25-20.26.09:047][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.25-20.26.09:057][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.25-20.26.09:057][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.25-20.26.09:191][  0]LogXGEController: Cleaning working directory: C:/Users/Konrad/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.25-20.26.09:191][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.25-20.26.09:191][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.25-20.26.09:191][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.25-20.26.10:017][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.25-20.26.10:164][  0]LogDerivedDataCache: Loaded boot cache 0.15s 71MB C:/Users/Konrad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.25-20.26.10:165][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Konrad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.25-20.26.10:165][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Arkoan/ArkonaGame/ArkonaGame_Proj/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.25-20.26.10:165][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.25-20.26.10:165][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Arkoan/ArkonaGame/ArkonaGame_Proj/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.25-20.26.10:165][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.25-20.26.10:182][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.25-20.26.10:195][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Konrad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.25-20.26.10:195][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.25-20.26.10:195][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.25-20.26.10:235][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.25-20.26.10:239][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.25-20.26.10:240][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.25-20.26.10:352][  0]LogAssetRegistry: FAssetRegistry took 0.0339 seconds to start up
+[2018.11.25-20.26.11:021][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.25-20.26.11:313][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.25-20.26.11:323][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.25-20.26.11:323][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.25-20.26.11:323][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.25-20.26.11:323][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.25-20.26.11:354][  0]LogNetVersion: ArkonaGame_Proj 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2592284666)
+[2018.11.25-20.26.12:210][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.264247 seconds
+[2018.11.25-20.26.12:226][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.25-20.26.12:226][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.25-20.26.12:226][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.25-20.26.13:668][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.25-20.26.13:689][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.25-20.26.13:910][  0]SourceControl: Source control is disabled
+[2018.11.25-20.26.13:910][  0]SourceControl: Source control is disabled
+[2018.11.25-20.26.13:913][  0]SourceControl: Source control is disabled
+[2018.11.25-20.26.13:915][  0]SourceControl: Source control is disabled
+[2018.11.25-20.26.14:200][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.25-20.26.14:389][  0]LogOcInput: OculusInput pre-init called
+[2018.11.25-20.26.14:477][  0]LogEngine: Initializing Engine...
+[2018.11.25-20.26.14:478][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.25-20.26.14:480][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.25-20.26.14:480][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.25-20.26.14:480][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.25-20.26.14:480][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.25-20.26.14:800][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.25-20.26.14:841][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.25-20.26.14:889][  0]LogInit: XAudio2 using 'Headset Earphone (2- Razer Kraken 7.1 Chroma)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.25-20.26.14:951][  0]LogInit: FAudioDevice initialized.
+[2018.11.25-20.26.14:951][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.25-20.26.15:080][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/Konrad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.25-20.26.15:081][  0]LogInit: Texture streaming: Enabled
+[2018.11.25-20.26.15:125][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.25-20.26.15:281][  0]LogInit: Transaction tracking system initialized
+[2018.11.25-20.26.15:340][  0]BlueprintLog: New page: Editor Load
+[2018.11.25-20.26.15:558][  0]LocalizationService: Localization service is disabled
+[2018.11.25-20.26.15:963][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.25-20.26.15:964][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.25-20.26.15:964][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.25-20.26.15:964][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.25-20.26.15:964][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.25-20.26.15:965][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.25-20.26.15:965][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.25-20.26.16:269][  0]LogFileCache: Scanning file cache for directory 'H:/Arkoan/ArkonaGame/ArkonaGame_Proj/Content/' took 0.02s
+[2018.11.25-20.26.16:269][  0]SourceControl: Source control is disabled
+[2018.11.25-20.26.16:270][  0]Cmd: MAP LOAD FILE="../../../../../Arkoan/ArkonaGame/ArkonaGame_Proj/Content/StoryAdvTemplate/Maps/DemoLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.25-20.26.16:271][  0]LightingResults: New page: Lighting Build
+[2018.11.25-20.26.16:280][  0]MapCheck: New page: Map Check
+[2018.11.25-20.26.16:280][  0]LightingResults: New page: Lighting Build
+[2018.11.25-20.26.21:095][  0]LogAIModule: Creating AISystem for world DemoLevel
+[2018.11.25-20.26.21:185][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.25-20.26.21:251][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.25-20.26.21:397][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 145.881ms to complete.
+[2018.11.25-20.26.21:398][  0]LogFileHelpers: Loading map 'DemoLevel' took 5.129
+[2018.11.25-20.26.21:546][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.25-20.26.21:556][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.25-20.26.21:564][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.25-20.26.21:580][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.25-20.26.21:595][  0]LogCollectionManager: Loaded 0 collections in 0.003859 seconds
+[2018.11.25-20.26.21:716][  0]LogFileCache: Scanning file cache for directory 'H:/Arkoan/ArkonaGame/ArkonaGame_Proj/Saved/Collections/' took 0.01s
+[2018.11.25-20.26.21:716][  0]LogFileCache: Scanning file cache for directory 'H:/Arkoan/ArkonaGame/ArkonaGame_Proj/Content/Developers/Konrad/Collections/' took 0.01s
+[2018.11.25-20.26.21:716][  0]LogFileCache: Scanning file cache for directory 'H:/Arkoan/ArkonaGame/ArkonaGame_Proj/Content/Collections/' took 0.01s
+[2018.11.25-20.26.21:716][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.25-20.26.21:729][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2572 classes and 603 folders.
+[2018.11.25-20.26.21:745][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.25-20.26.21:860][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.25-20.26.21:870][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.11.25-20.26.22:009][  0]LogSlate: Took 0.000482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.25-20.26.22:012][  0]LogSlate: Took 0.000463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.25-20.26.22:019][  0]LogSlate: Took 0.000828 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.25-20.26.22:126][  0]LogRenderer: Reallocating scene render targets to support 1220x608 Format 10 NumSamples 1 (Frame:1).
+[2018.11.25-20.26.22:343][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.25-20.26.22:343][  0]LogLoad: (Engine Initialization) Total time: 19.05 seconds
+[2018.11.25-20.26.22:343][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.25-20.26.22:389][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.25-20.26.22:408][  0]LogSlate: Took 0.000459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.25-20.26.22:564][  2]LogAssetRegistry: Asset discovery search completed in 12.2365 seconds
+[2018.11.25-20.26.22:570][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.25-20.26.22:570][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000087 seconds (updated 0 objects)
+[2018.11.25-20.27.56:170][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.25-20.27.56:296][387]LogSlate: Window 'ArkonaGame_Proj - Unreal Editor' being destroyed
+[2018.11.25-20.27.56:297][387]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.25-20.27.56:532][388]Cmd: QUIT_EDITOR
+[2018.11.25-20.27.56:584][388]LogExit: Preparing to exit.
+[2018.11.25-20.27.56:836][388]LogExit: Editor shut down
+[2018.11.25-20.27.56:836][388]LogExit: Transaction tracking system shut down
+[2018.11.25-20.27.57:325][388]LogExit: Object subsystem successfully closed.
+[2018.11.25-20.27.57:353][388]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.25-20.27.57:360][388]LogD3D11RHI: Shutdown
+[2018.11.25-20.27.57:360][388]LogD3D11RHI: CleanupD3DDevice
+[2018.11.25-20.27.57:365][388]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.25-20.27.57:388][388]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2018.11.25-20.27.57:388][388]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2018.11.25-20.27.57:388][388]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.11.25-20.27.57:389][388]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.11.25-20.27.57:390][388]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.11.25-20.27.57:391][388]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.11.25-20.27.57:391][388]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.11.25-20.27.57:391][388]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.11.25-20.27.57:708][388]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.11.25-20.27.57:709][388]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.11.25-20.27.57:710][388]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.11.25-20.27.57:710][388]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.11.25-20.27.57:710][388]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.11.25-20.27.57:710][388]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.11.25-20.27.57:710][388]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.11.25-20.27.57:710][388]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.11.25-20.27.57:765][388]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.11.25-20.27.57:765][388]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.11.25-20.27.57:765][388]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.11.25-20.27.57:765][388]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.11.25-20.27.57:765][388]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.11.25-20.27.57:765][388]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.11.25-20.27.57:765][388]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.11.25-20.27.57:765][388]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.11.25-20.27.57:765][388]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.11.25-20.27.57:765][388]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.11.25-20.27.57:770][388]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.11.25-20.27.57:771][388]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.11.25-20.27.57:951][388]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.11.25-20.27.57:952][388]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.11.25-20.27.57:952][388]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.11.25-20.27.57:953][388]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.11.25-20.27.57:954][388]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.11.25-20.27.57:954][388]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.11.25-20.27.57:954][388]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.11.25-20.27.57:954][388]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.11.25-20.27.57:954][388]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.11.25-20.27.57:954][388]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.11.25-20.27.57:954][388]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.11.25-20.27.57:954][388]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.11.25-20.27.57:954][388]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.11.25-20.27.57:954][388]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.11.25-20.27.57:954][388]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.11.25-20.27.57:954][388]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.11.25-20.27.57:954][388]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.11.25-20.27.57:954][388]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.11.25-20.27.57:985][388]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.11.25-20.27.57:985][388]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.11.25-20.27.57:985][388]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.11.25-20.27.57:985][388]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.11.25-20.27.57:985][388]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.11.25-20.27.57:985][388]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.11.25-20.27.57:985][388]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.11.25-20.27.57:985][388]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.11.25-20.27.57:985][388]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.11.25-20.27.57:985][388]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.11.25-20.27.57:985][388]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.11.25-20.27.57:985][388]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.11.25-20.27.57:986][388]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.11.25-20.27.57:987][388]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.11.25-20.27.57:987][388]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.11.25-20.27.57:987][388]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.11.25-20.27.57:987][388]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.11.25-20.27.57:987][388]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.11.25-20.27.57:987][388]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.11.25-20.27.57:987][388]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.11.25-20.27.58:088][388]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.11.25-20.27.58:189][388]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.11.25-20.27.58:189][388]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.11.25-20.27.58:189][388]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.11.25-20.27.58:189][388]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.11.25-20.27.58:189][388]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.11.25-20.27.58:189][388]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.11.25-20.27.58:189][388]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.11.25-20.27.58:190][388]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.11.25-20.27.58:190][388]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.11.25-20.27.58:191][388]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.11.25-20.27.58:191][388]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.11.25-20.27.58:192][388]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.11.25-20.27.58:194][388]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.11.25-20.27.58:194][388]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.11.25-20.27.58:194][388]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.11.25-20.27.58:194][388]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.11.25-20.27.58:194][388]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.11.25-20.27.58:195][388]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.11.25-20.27.58:196][388]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.11.25-20.27.58:204][388]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.11.25-20.27.58:209][388]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.11.25-20.27.58:209][388]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.11.25-20.27.58:210][388]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.11.25-20.27.58:210][388]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.11.25-20.27.58:210][388]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.11.25-20.27.58:210][388]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.11.25-20.27.58:210][388]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.11.25-20.27.58:210][388]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.11.25-20.27.58:210][388]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.11.25-20.27.58:210][388]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.11.25-20.27.58:210][388]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.11.25-20.27.58:210][388]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.11.25-20.27.58:210][388]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.11.25-20.27.58:210][388]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.11.25-20.27.58:210][388]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.11.25-20.27.58:211][388]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.11.25-20.27.58:211][388]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.11.25-20.27.58:211][388]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.11.25-20.27.58:370][388]LogDerivedDataCache: Shutdown
+[2018.11.25-20.27.58:370][388]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.11.25-20.27.58:371][388]LogXGEController: Cleaning working directory: C:/Users/Konrad/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.11.25-20.27.58:371][388]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.11.25-20.27.58:373][388]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.11.25-20.27.58:374][388]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.11.25-20.27.58:375][388]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.11.25-20.27.58:375][388]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.11.25-20.27.58:383][388]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.11.25-20.27.58:383][388]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.11.25-20.27.58:383][388]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.11.25-20.27.58:383][388]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.11.25-20.27.58:383][388]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.11.25-20.27.58:383][388]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.11.25-20.27.58:383][388]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.11.25-20.27.58:384][388]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.11.25-20.27.58:384][388]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.11.25-20.27.58:384][388]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.11.25-20.27.58:384][388]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.11.25-20.27.58:384][388]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.11.25-20.27.58:384][388]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.11.25-20.27.58:384][388]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.11.25-20.27.58:384][388]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.11.25-20.27.58:384][388]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.11.25-20.27.58:384][388]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.11.25-20.27.58:384][388]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.11.25-20.27.58:386][388]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.11.25-20.27.58:386][388]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.11.25-20.27.58:423][388]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.11.25-20.27.58:423][388]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.25-20.27.58:423][388]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8658C32A-4EB4-6C88-8F96-A3B6D4408987%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=705384cb450835e9f2f0bdb61d687529%7C7a33b894e3124b778cdcae4f974b5154%7C9360f8d7-5a58-45bf-8cd6-26c758fd18cb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.25-20.27.58:434][388]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.11.25-20.27.58:437][388]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.11.25-20.27.58:437][388]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.11.25-20.27.58:437][388]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.11.25-20.27.58:437][388]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.11.25-20.27.58:437][388]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.11.25-20.27.58:437][388]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.11.25-20.27.58:437][388]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.11.25-20.27.58:438][388]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.11.25-20.27.58:438][388]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.11.25-20.27.58:438][388]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.25-20.27.58:438][388]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.11.25-20.27.58:439][388]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.25-20.27.58:439][388]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.25-20.27.58:439][388]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.25-20.27.58:439][388]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.25-20.27.58:440][388]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.25-20.27.58:440][388]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.25-20.27.58:440][388]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.25-20.27.58:440][388]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.25-20.27.58:440][388]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.25-20.27.58:440][388]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.25-20.27.58:440][388]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.25-20.27.58:441][388]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.25-20.27.58:441][388]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.25-20.27.58:441][388]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.25-20.27.58:441][388]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.25-20.27.58:441][388]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.25-20.27.58:441][388]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.25-20.27.58:441][388]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.25-20.27.58:452][388]LogExit: Exiting.
+[2018.11.25-20.27.58:476][388]Log file closed, 11/25/18 20:27:58
